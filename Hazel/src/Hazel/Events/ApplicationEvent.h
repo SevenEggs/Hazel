@@ -67,7 +67,7 @@ namespace Hazel {
 }
 
 // 提供 fmt::formatter 特化
-namespace fmt {
+/*namespace fmt {
     template <>
     struct formatter<Hazel::WindowResizeEvent> {
         constexpr auto parse(format_parse_context& ctx) {
@@ -80,3 +80,4 @@ namespace fmt {
         }
     };
 }
+*/
