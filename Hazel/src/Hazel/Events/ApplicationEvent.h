@@ -1,8 +1,6 @@
 #pragma once
 
 #include "Event.h"
-#include <sstream>
-#include <spdlog/fmt/fmt.h>
 
 namespace Hazel {
 
@@ -79,5 +77,4 @@ namespace Hazel {
             return format_to(ctx.out(), "{}", event.ToString());
         }
     };
-}
-*/
+}*/

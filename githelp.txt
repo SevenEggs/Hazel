@@ -3,3 +3,4 @@ Git status
 git reset .
 git commit -m "Added event system + basic test."
 git push origin main
+git submodule add https://github.com/TheCherno/glfw Hazel/vendor/GLFW
