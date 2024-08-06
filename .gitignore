@@ -5,4 +5,4 @@ bin-int/
 
 # Files
 *.user
-Hazel/vendor/GLFW
+Hazel/vendor/GLFW_back
