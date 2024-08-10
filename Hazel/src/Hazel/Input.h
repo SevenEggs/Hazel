@@ -6,9 +6,9 @@ namespace Hazel{
 	class HAZEL_API Input
 	{
 	public:
-		inline static bool isKeyPressed(int keycode) { return s_Instance->IsKeyPressedImpl(keycode); }
+		inline static bool IsKeyPressed(int keycode) { return s_Instance->IsKeyPressedImpl(keycode); }
 
-		inline static bool isMouseButtonPressed(int button) { return s_Instance->IsMouseButtonPressedImpl(button); }
+		inline static bool IsMouseButtonPressed(int button) { return s_Instance->IsMouseButtonPressedImpl(button); }
 		inline static std::pair<float, float> GetMousePostion() { return s_Instance->IsGetMousePostionImpl(); }
 		inline static float GetMouseX() { return s_Instance->IsGetMouseXImpl(); }
 		inline static float GetMouseY() { return s_Instance->IsGetMouseYImpl(); }
