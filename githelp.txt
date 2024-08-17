@@ -7,3 +7,7 @@ git submodule add https://github.com/TheCherno/glfw Hazel/vendor/GLFW
 
 
 "Added submodule GLFW ."
+
+
+git submodule update --init --recursive
+git checkout ee5ce4bccae2b8474a3e57c0c2a1eb2807f2de8b
