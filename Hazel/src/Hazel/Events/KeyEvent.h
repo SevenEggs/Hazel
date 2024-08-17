@@ -57,7 +57,7 @@ namespace Hazel {
 	{
 	public:
 		KeyTypedEvent(int keycode)
-			: KeyEvent(keycode){}
+			: KeyEvent(keycode) {}
 
 		std::string ToString() const override
 		{

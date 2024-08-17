@@ -61,20 +61,4 @@ namespace Hazel {
 		EVENT_CLASS_TYPE(AppRender)
 		EVENT_CLASS_CATEGORY(EventCategoryApplication)
 	};
-
 }
-
-// 提供 fmt::formatter 特化
-/*namespace fmt {
-    template <>
-    struct formatter<Hazel::WindowResizeEvent> {
-        constexpr auto parse(format_parse_context& ctx) {
-            return ctx.begin();
-        }
-
-        template <typename FormatContext>
-        auto format(const Hazel::WindowResizeEvent& event, FormatContext& ctx) {
-            return format_to(ctx.out(), "{}", event.ToString());
-        }
-    };
-}*/
